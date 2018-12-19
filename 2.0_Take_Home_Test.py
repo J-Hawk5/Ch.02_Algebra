@@ -8,11 +8,11 @@ but I will definitely not ask another person except the instructor. Signed: Spen
 
 
 2.) What do the following lines of code output? ALSO: Why do they give a different answer?
-2 / 3
-2 // 3
-3/2
-3//2
-
+2 / 3=0.66666
+2 // 3=0
+3/2=1.5
+3//2=1
+Because floor division round the answer to the next lowest number
 
 
 
@@ -21,7 +21,7 @@ but I will definitely not ask another person except the instructor. Signed: Spen
 A = 22
 b = 13
 c = a+b
-
+It creates an error because the program is case sensitive so A is not the same as a, so a has no value.
 
 
 
@@ -36,7 +36,7 @@ area
 area_of_rectangle
 Area_Of_Rectangle
 
-
+area_of_rectangle because it fully describes the variable and uses lower case letters and underscores.
 
 
 
@@ -47,12 +47,12 @@ apple
 Apple
 APPLE
 Apple2
-1Apple
-account number
+1Apple               Not allowed
+account number       Not allowed
 account_number
-account.number
+account.number       Not allowed
 accountNumber
-account#
+account#             Not allowed
 pi
 PI
 fred
@@ -60,11 +60,11 @@ Fred
 GreatBigVariable
 greatBigVariable
 great_big_variable
-great.big.variable
-2x
+great.big.variable  Not allowed
+2x                  Not allowed
 x2x
-total%
-#left
+total%              Not allowed
+#left               Not allowed
 
 
 
@@ -80,9 +80,9 @@ a-=7
 a
 type(a)
 
+prediction:a=15
 
-
-
+answer:<class 'float'>
 
 
 
