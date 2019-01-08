@@ -3,7 +3,7 @@ HONOR CODE: I solemnly promise that while taking this test I will only use PyCha
 but I will definitely not ask another person except the instructor. Signed: Spencer E. Daves
 
 1.) How do you enter a single line comment in a program?
-
+By starting the line with #
 
 
 
@@ -81,7 +81,7 @@ a
 type(a)
 
 prediction:a=15
-
+actual:a=15.0
 answer:<class 'float'>
 
 
@@ -93,16 +93,16 @@ pi = x
 area = pi  * radius ** 2
 area
 
-
+pi=3.14
 
 
 
 
 8.) What is the ouput of each of these?
-type(42)
-type(42.0)
-type("C3PO")
-type(True)
+type(42)       <class 'int'>
+type(42.0)     <class 'float'>
+type("C3PO")   <class 'str'>
+type(True)     <class 'bool'>
 
 
 
@@ -116,7 +116,7 @@ y = 5
 a = 3(x + y)
 a
 
-
+a=3*(x+y)
 
 
 
@@ -126,7 +126,7 @@ x,y,z =(3,4,5)
 ave = x+y+z/3
 ave
 
-
+Because it needs parentheses around x+y+z, or else is only divides z.
 
 
 
